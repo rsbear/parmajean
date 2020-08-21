@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "target": "es2015",
+    "sourceMap": true,
+    "declaration": true,
+    "module": "es2015",
+    "removeComments": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": false,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "strictNullChecks": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "importHelpers": true,
+    "stripInternal": true,
+    "outDir": "dist",
+    "lib": ["es2015", "dom"]
+  },
+  "exclude": ["__tests__/**/*"],
+  "include": ["pkg/**/*"],
+  "files": ["pkg/index.ts"]
+}
