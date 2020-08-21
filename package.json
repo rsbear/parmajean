@@ -1,6 +1,7 @@
 {
   "name": "@rsbear/parmajean",
   "version": "1.0.8",
+  "source": "src/index.ts",
   "main": "dist/parmajean.js",
   "browser": "dist/parmajean.umd.js",
   "umd:main": "dist/parmajean.umd.js",
@@ -15,7 +16,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rimraf dist && yarn build:minified && yarn cleanup",
-    "build:minified": "microbundle --name parmajean --output dist/",
+    "build:minified": "microbundle --output dist/",
     "build:uncompressed": "microbundle --no-compress --name parmajean --output dist/",
     "dev": "microbundle watch --no-compress --output dist/",
     "cleanup": "rimraf .rpt2_cache && rimraf .rts2_cache_cjs && rimraf .rts2_cache_umd && rimraf .rts2_cache_es",
