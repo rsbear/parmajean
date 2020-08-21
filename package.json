@@ -1,6 +1,6 @@
 {
   "name": "@rsbear/parmajean",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/parmajean.js",
   "browser": "dist/parmajean.umd.js",
   "umd:main": "dist/parmajean.umd.js",
