@@ -20,7 +20,7 @@
     "outDir": "dist",
     "lib": ["es2015", "dom"]
   },
-  "exclude": ["__tests__/**/*"],
-  "include": ["pkg/**/*"],
-  "files": ["pkg/index.ts"]
+  "exclude": ["node_modules"],
+  "include": ["src/**/*"],
+  "files": ["src/index.ts"]
 }
