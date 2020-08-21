@@ -2,11 +2,9 @@
   "name": "@rsbear/parmajean",
   "version": "1.0.9",
   "source": "src/index.ts",
-  "main": "dist/parmajean.js",
-  "browser": "dist/parmajean.umd.js",
-  "umd:main": "dist/parmajean.umd.js",
-  "jsnext:main": "dist/parmajean.modern.js",
-  "module": "dist/parmajean.module.js",
+  "main": "dist/parmajean.js",           
+  "module": "dist/parmajean.module.js",  
+  "unpkg": "dist/parmajean.umd.js",
   "syntax": {
     "esmodules": "dist/parmajean.modern.js"
   },
