@@ -1,6 +1,6 @@
 {
   "name": "@rsbear/parmajean",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "source": "src/index.ts",
   "main": "dist/parmajean.js",
   "module": "dist/parmajean.module.js",
