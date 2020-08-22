@@ -28,6 +28,7 @@ jobs:
           yarn 
           yarn version --patch
           yarn build
+          ls -lah
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
         
@@ -41,6 +42,7 @@ jobs:
         run: | 
           git config --global user.email "hellorosss@gmail.com"
           git config --global user.name "rsbear"
+          ls -lah
           yarn publish --@rsbear:registry=https://registry.npmjs.org/ --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
