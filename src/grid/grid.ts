@@ -1,4 +1,4 @@
-import { css } from "@emotion/core";
+import css from "@emotion/css";
 
 const columns = (col: string, gap?: string) => css`
   display: grid;
@@ -26,5 +26,5 @@ export interface GridValues {
 export const grid: GridValues = {
   columns,
   center,
-  place,
+  place
 };

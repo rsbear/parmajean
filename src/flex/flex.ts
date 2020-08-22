@@ -1,4 +1,4 @@
-import { css } from "@emotion/core";
+import css from "@emotion/css";
 
 // debbie
 const aic = css`
@@ -47,5 +47,5 @@ export const flex: FlexValues = {
   column,
   jcc,
   jcfe,
-  jcfs,
+  jcfs
 };

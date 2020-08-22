@@ -1,4 +1,4 @@
-import { css } from "@emotion/core";
+import css from "@emotion/css";
 
 const base = 5;
 
@@ -262,5 +262,5 @@ export const m = {
   y75,
   y80,
   y100,
-  y120,
+  y120
 };
