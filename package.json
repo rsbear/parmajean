@@ -8,6 +8,7 @@
   "syntax": {
     "esmodules": "dist/parmajean.modern.js"
   },
+  "files": ["dist/**/*"],
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts",
   "author": "rsbear",
