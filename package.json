@@ -1,6 +1,6 @@
 {
   "name": "@rsbear/parmajean",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "source": "src/index.ts",
   "main": "dist/parmajean.js",
   "module": "dist/parmajean.module.js",
@@ -8,7 +8,10 @@
   "syntax": {
     "esmodules": "dist/parmajean.modern.js"
   },
-  "files": ["dist", "types"],
+  "files": [
+    "dist",
+    "types"
+  ],
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts",
   "author": "rsbear",
