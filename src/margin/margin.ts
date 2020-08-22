@@ -1,4 +1,5 @@
 import css from "@emotion/css";
+import { MarginValues } from "../index";
 
 const base = 5;
 
@@ -173,53 +174,7 @@ const my = (v: string) => css`
   margin-bottom: ${v};
 `;
 
-export interface MarginValues {
-  mb: Function;
-  ml: Function;
-  mr: Function;
-  mt: Function;
-  my: Function;
-  myx: Function;
-  mx: Function;
-  x5: any;
-  x10: any;
-  x15: any;
-  x20: any;
-  x25: any;
-  x30: any;
-  x35: any;
-  x40: any;
-  x45: any;
-  x50: any;
-  x55: any;
-  x60: any;
-  x65: any;
-  x70: any;
-  x75: any;
-  x80: any;
-  x100: any;
-  x120: any;
-  y5: any;
-  y10: any;
-  y15: any;
-  y20: any;
-  y25: any;
-  y30: any;
-  y35: any;
-  y40: any;
-  y45: any;
-  y50: any;
-  y55: any;
-  y60: any;
-  y65: any;
-  y70: any;
-  y75: any;
-  y80: any;
-  y100: any;
-  y120: any;
-}
-
-export const m = {
+export const m: MarginValues = {
   mb,
   ml,
   mr,

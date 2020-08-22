@@ -1,4 +1,5 @@
 import css from "@emotion/css";
+import { GridValues } from "../index";
 
 const columns = (col: string, gap?: string) => css`
   display: grid;
@@ -16,12 +17,6 @@ const place = (v: string) => css`
   display: grid;
   place-items: ${v};
 `;
-
-export interface GridValues {
-  columns: Function;
-  center: any;
-  place: Function;
-}
 
 export const grid: GridValues = {
   columns,

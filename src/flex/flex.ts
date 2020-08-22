@@ -1,4 +1,5 @@
 import css from "@emotion/css";
+import { FlexValues } from "../index";
 
 // debbie
 const aic = css`
@@ -29,16 +30,6 @@ const jcfs = css`
   display: flex;
   justify-content: flex-start;
 `;
-
-export interface FlexValues {
-  aic: any;
-  aife: any;
-  aifs: any;
-  column: any;
-  jcc: any;
-  jcfe: any;
-  jcfs: any;
-}
 
 export const flex: FlexValues = {
   aic,
