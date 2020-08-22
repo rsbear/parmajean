@@ -1,5 +1,5 @@
 import css from "@emotion/css";
-import { MarginValues } from "../index";
+import { MarginValues } from "../../types/index";
 
 const base = 5;
 

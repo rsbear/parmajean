@@ -1,5 +1,5 @@
 import css from "@emotion/css";
-import { PaddingValues } from "../index";
+import { PaddingValues } from "../../types/index";
 
 const base = 5;
 

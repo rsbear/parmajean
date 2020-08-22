@@ -1,5 +1,5 @@
 import css from "@emotion/css";
-import { FlexValues } from "../index";
+import { FlexValues } from "../../types/index";
 
 // debbie
 const aic = css`

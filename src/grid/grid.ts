@@ -1,5 +1,5 @@
 import css from "@emotion/css";
-import { GridValues } from "../index";
+import { GridValues } from "../../types/index";
 
 const columns = (col: string, gap?: string) => css`
   display: grid;

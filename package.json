@@ -15,7 +15,8 @@
     "dist/parmajean.module.js",
     "dist/parmajean.module.js.map",
     "dist/parmajean.modern.js",
-    "dist/parmajean.modern.js.map"
+    "dist/parmajean.modern.js.map",
+    "types"
   ],
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts",
